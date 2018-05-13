@@ -1,0 +1,46 @@
+h2 {
+    color: #4aaaa5;
+    font-family: Cambria, Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #ffffff;
+    height: 
+}
+
+body {
+	background: url("../images/bg_pic.jpg");
+	background-size: cover; 
+}
+
+.bottext {
+    clear: both;
+    line-height: 22px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#About {
+    margin: auto;
+    padding: 20px;
+    width: 960px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+img {
+    float: left;
+}
+
+#toptext {
+    padding-left: 210px;
+    line-height: 22px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#Break {
+    background-color: #dddddd;
+    width: 940px;
+    height: 3px;
+}
