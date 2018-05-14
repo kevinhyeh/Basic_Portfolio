@@ -5,14 +5,17 @@ h2 {
     font-weight: bold;
 }
 
-header {
+.header {
     background-color: #ffffff;
-    height: 
+    height: 80px;
+    display: block;
 }
 
+
 body {
-	background: url("../images/bg_pic.jpg");
+	background: url("../images/bg_pic2.jpg");
 	background-size: cover; 
+	margin: 0px;
 }
 
 .bottext {
@@ -23,6 +26,7 @@ body {
 
 #About {
     margin: auto;
+    margin-top: 30px;
     padding: 20px;
     width: 960px;
     background-color: #ffffff;
@@ -39,8 +43,62 @@ img {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#Break {
+#break {
     background-color: #dddddd;
     width: 940px;
     height: 3px;
 }
+
+.headerinfo {
+	width: 1000px;
+	margin: auto;
+}
+
+.name {
+	height: 80px;
+	width: 200px;
+	background-color: #4aaaa5;
+	float: left;
+	text-align: center;
+	color: #ffffff;
+}
+.click {
+	float: right;
+	border: none;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Cambria, Georgia, serif;
+}
+
+.footer {
+	position: fixed;
+	width: 100%;
+	background-color: #666666;
+	height: 60px;
+	bottom: 0px;
+	left: 0px;
+	border-top: solid #4aaaa5 5px;
+}
+
+.footerbreak {
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 3px;
+}
+
+.copyright {
+	text-align: center;
+	color: #ffffff;
+	padding-top: 30px;
+	font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
