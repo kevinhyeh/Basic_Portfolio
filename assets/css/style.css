@@ -1,9 +1,19 @@
 /*style sheet for all*/
 
+html {
+	height: 100%;
+	margin: 0px;
+	height: 100%;
+	padding: 0px;
+}
+
 body {
     background: url("../images/bg_pic2.jpg");
     background-size: cover;
     margin: 0px;
+    padding: 0px;
+    position: inherit;
+    background-repeat: none;
 }
 
 h2 {
@@ -22,26 +32,6 @@ a {
     color: grey;
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
-
-
-/*main body*/
-
-.container {
-    margin: auto;
-    margin-top: 30px;
-    padding: 20px;
-    width: 960px;
-    background-color: #ffffff;
-    border: 2px solid #dddddd;
-}
-
-.break {
-    background-color: #dddddd;
-    width: 940px;
-    height: 3px;
-}
-
-/*end main body*/
 
 
 /*header style*/
@@ -85,37 +75,32 @@ a {
 }
 
 
-/*end header style*/
+/*main body*/
 
-
-/*footer style*/
-
-.footer {
-    position: fixed;
-    width: 100%;
-    background-color: #666666;
-    height: 60px;
-    bottom: 0px;
-    left: 0px;
-    border-top: solid #4aaaa5 5px;
+.bg {
+	position: relative;
 }
 
-.footerbreak {
-    background-color: #4aaaa5;
-    width: 100%;
+.container {
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    width: 960px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    margin-bottom: 30px;
+}
+
+.break {
+    background-color: #dddddd;
+    width: 940px;
     height: 3px;
 }
 
-.copyright {
-    text-align: center;
-    color: #dddddd;
-    padding-top: 30px;
-    font-size: 11px;
-    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-}
+/*end main body*/
 
 
-/*end footer style*/
+/*end header style*/
 
 
 /*end style sheet for all*/
@@ -140,6 +125,33 @@ a {
 
 /*style sheet for portfolio.html*/
 
+.galleryimg {
+	width: 250px;
+	height: 215px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.boxtext {
+	position: absolute;
+	height: 30px;
+	width: 250px;
+	background-color: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 8px;
+	font-size: 20px;
+	margin-top: 140px;
+}
+
+td {
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+table {
+	margin: auto;
+}
 
 /*end style sheet for portfolio.html*/
 
@@ -184,6 +196,22 @@ a {
 /*end style sheet for contact.html*/
 
 
+/*footer style*/
+
+footer {
+    width: 100%;
+    background-color: #666666;
+    height: 30px;
+    border-top: solid #4aaaa5 5px;
+    text-align: center;
+    color: #dddddd;
+    padding-top: 30px;
+    font-size: 11px;
+    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+
+/*end footer style*/
 
 
 
