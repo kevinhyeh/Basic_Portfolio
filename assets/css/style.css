@@ -1,19 +1,9 @@
 /*style sheet for all*/
 
-html {
+html, body {
 	height: 100%;
 	margin: 0px;
-	height: 100%;
 	padding: 0px;
-}
-
-body {
-    background: url("../images/bg_pic2.jpg");
-    background-size: cover;
-    margin: 0px;
-    padding: 0px;
-    position: inherit;
-    background-repeat: none;
 }
 
 h2 {
@@ -33,13 +23,11 @@ a {
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
-
 /*header style*/
 
 .header {
     background-color: #ffffff;
     height: 80px;
-    display: block;
 }
 
 .headerinfo {
@@ -77,18 +65,21 @@ a {
 
 /*main body*/
 
-.bg {
+#wrapper {
+	min-height: 100%;
 	position: relative;
+	background: url("../images/bg_pic2.jpg");
+	background-size: cover;
 }
 
-.container {
+.content {
     margin: auto;
-    margin-top: 30px;
-    padding: 20px;
     width: 960px;
     background-color: #ffffff;
     border: 2px solid #dddddd;
-    margin-bottom: 30px;
+    padding: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 .break {
@@ -198,18 +189,19 @@ table {
 
 /*footer style*/
 
-footer {
+#footer {
     width: 100%;
     background-color: #666666;
     height: 30px;
     border-top: solid #4aaaa5 5px;
     text-align: center;
     color: #dddddd;
-    padding-top: 30px;
     font-size: 11px;
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    padding-top: 30px;
 }
-
 
 /*end footer style*/
 
