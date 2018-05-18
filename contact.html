@@ -25,18 +25,16 @@
         <section>
             <h2>Contact</h2>
             <div class="break"></div>
-            <p class="contacttitle">Name</p>
-            <div class="namebox">
-                <p class="exampletext">Your Name</p>
-            </div>
-            <p class="contacttitle">Email</p>
-            <div class="namebox">
-                <p class="exampletext">example@email.com</p>
-            </div>
-            <p class="contacttitle">Message</p>
-            <div id="messagebox">
-            </div>
-            <div id="submit">Submit</div>
+            <form>
+                <label for="name">Name</label>
+                <input id="textform" placeholder="Your Name" name="name"></input>
+                <label for="email">Email</label>
+                <input id="textform" placeholder="Your Email" name="email"></input>
+                <label for="message">Message</label>
+                <textarea name="message" id="messagebox">
+                </textarea>
+                <button type="button" id="submit">Submit</button>
+            </form>
         </section>
         <!-- end main body -->
         <br>
