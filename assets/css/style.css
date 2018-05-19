@@ -137,15 +137,44 @@ nav {
 
 /*style sheet for portfolio.html*/
 
-.galleryimg {
-	width: 250px;
-	height: 215px;
-	padding: 0px;
-	margin: 0px;
+#center {
+    margin: auto;
+}
+.picture {
+    float: left;
+    position: relative;
+    display: grid;
+    width: 250px;
+    height: 215px;
+    background-size: cover;
+    margin: 20px;
 }
 
-.portfolio {
-	position: absolute;
+#end {
+    clear: both;
+}
+
+#tgllogo {
+    background-image: url("../images/tgjlogo.jpg");
+}
+
+#javascript {
+    background-image: url("../images/javascript.png");
+}
+
+#htmlcss {
+    background-image: url("../images/htmlcss.jpg");
+}
+
+#photoshop {
+    background-image: url("../images/photoshop.jpg");
+}
+
+#photography {
+    background-image: url("../images/photography.jpg");
+}
+
+.portfolioname {
 	height: 30px;
 	width: 250px;
 	background-color: #4aaaa5;
@@ -153,16 +182,9 @@ nav {
 	color: #ffffff;
 	padding-top: 8px;
 	font-size: 20px;
-	margin-top: 140px;
-}
-
-td {
-	padding-right: 20px;
-	padding-bottom: 20px;
-}
-
-table {
-	margin: auto;
+    position: absolute;
+    z-index: 1;
+    margin-top: 140px;
 }
 
 /*end style sheet for portfolio.html*/
