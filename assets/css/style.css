@@ -15,8 +15,12 @@ h2 {
 
 a {
     text-decoration: none;
-    color: grey;
+    color: #777777;
     font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+a:hover {
+    color: #ffffff;
 }
 
 
@@ -69,6 +73,7 @@ h1 {
 header {
     background-color: #ffffff;
     height: 80px;
+    border-bottom: #cccccc solid 1px;
 }
 
 nav {
@@ -80,6 +85,11 @@ nav {
     float: right;
     border: none;
     font-size: 20px;
+}
+
+.click:hover {
+    background-color: #4aaaa5;
+    color: ;
 }
 
 .tagbreak {
